@@ -1,0 +1,60 @@
+{
+  "education": {
+    "degree": {
+      "title": "Master's in Software Engineering",
+      "issuer": "South Mediterranean University (SMU)",
+      "date": "2017 – 2022",
+      "logoPath": "/assets/companies/smu.svg",
+      "courses": [
+        "Web development",
+        "Mobile development",
+        "Software engineering (design patterns, lifecycle)",
+        "Database systems (SQL heavy)",
+        "Operating systems (deeper)",
+        "Requirements & UX",
+        "Software architecture",
+        "Software quality & testing",
+        "Cloud / distributed systems",
+        "AI / data analytics"
+      ]
+    },
+    "certifications": [
+      {
+        "title": "Hashgraph Developer Course Certificate of completion",
+        "issuer": "Dar Blockchain",
+        "date": "December 2024"
+      },
+      {
+        "title": "ISTQB Certificate",
+        "issuer": "ISTQB",
+        "date": "March 2024"
+      },
+      {
+        "title": "Flutter and dart for mobile development",
+        "issuer": "IT Gate",
+        "date": "September 2022"
+      },
+      {
+        "title": "Angular Springboot",
+        "issuer": "IMS",
+        "date": "August 2021"
+      },
+      {
+        "title": "Python for Data Science, AI and Development",
+        "issuer": "IBM",
+        "date": "February 2021"
+      },
+      {
+        "title": "Flutter Advanced Patterns",
+        "issuer": "Udemy",
+        "date": "2024"
+      },
+      {
+        "title": "Google Cloud Associate",
+        "issuer": "Google",
+        "date": "2024",
+        "logoPath": "/assets/companies/google.svg"
+      }
+    ]
+  }
+}

@@ -1,0 +1,77 @@
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\sections\About.tsx
+  26:125  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\sections\Contact.tsx
+   26:120  error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  113:38   error  `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\sections\Education.tsx
+  57:42  warning  'index' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\sections\Hero.tsx
+  46:28  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\sections\__tests__\Contact.test.tsx
+   7:17  error    A `require()` style import is forbidden           @typescript-eslint/no-require-imports
+  10:12  error    Component definition is missing display name      react/display-name
+  10:37  error    Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  10:47  error    Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  11:17  warning  'initial' is assigned a value but never used      @typescript-eslint/no-unused-vars
+  11:26  warning  'whileInView' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  11:39  warning  'transition' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  11:51  warning  'whileHover' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  11:63  warning  'whileTap' is assigned a value but never used     @typescript-eslint/no-unused-vars
+  14:15  error    Component definition is missing display name      react/display-name
+  14:40  error    Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  14:50  error    Unexpected any. Specify a different type          @typescript-eslint/no-explicit-any
+  15:17  warning  'initial' is assigned a value but never used      @typescript-eslint/no-unused-vars
+  15:26  warning  'whileInView' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  15:39  warning  'transition' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  15:51  warning  'whileHover' is assigned a value but never used   @typescript-eslint/no-unused-vars
+  15:63  warning  'whileTap' is assigned a value but never used     @typescript-eslint/no-unused-vars
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\ui\SpeedLines.tsx
+  52:21  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\ui\SpeedLines.tsx:52:21
+  50 |           style={{
+  51 |             position: "absolute",
+> 52 |             top: `${Math.random() * 100}%`,
+     |                     ^^^^^^^^^^^^^ Cannot call impure function
+  53 |             left: "-100%",
+  54 |             width: `${100 + Math.random() * 200}px`,
+  55 |             height: "1px",                                                                                                      react-hooks/purity
+  54:29  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\ui\SpeedLines.tsx:54:29
+  52 |             top: `${Math.random() * 100}%`,
+  53 |             left: "-100%",
+> 54 |             width: `${100 + Math.random() * 200}px`,
+     |                             ^^^^^^^^^^^^^ Cannot call impure function
+  55 |             height: "1px",
+  56 |             background: "linear-gradient(90deg, transparent, var(--color-accent), transparent)",
+  57 |             opacity: 0.1 + Math.random() * 0.3,  react-hooks/purity
+  57:28  error  Error: Cannot call impure function during render
+
+`Math.random` is an impure function. Calling an impure function can produce unstable results that update unpredictably when the component happens to re-render. (https://react.dev/reference/rules/components-and-hooks-must-be-pure#components-and-hooks-must-be-idempotent).
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\components\ui\SpeedLines.tsx:57:28
+  55 |             height: "1px",
+  56 |             background: "linear-gradient(90deg, transparent, var(--color-accent), transparent)",
+> 57 |             opacity: 0.1 + Math.random() * 0.3,
+     |                            ^^^^^^^^^^^^^ Cannot call impure function
+  58 |             transform: "skewX(-30deg)",
+  59 |           }}
+  60 |         />                                                               react-hooks/purity
+
+C:\Users\Mega-PC\Desktop\New folder\portfolio-web\src\hooks\useContactForm.ts
+   4:8   warning  'emailjs' is defined but never used       @typescript-eslint/no-unused-vars
+  49:19  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+✖ 27 problems (15 errors, 12 warnings)
+

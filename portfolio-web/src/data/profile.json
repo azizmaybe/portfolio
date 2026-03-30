@@ -1,0 +1,14 @@
+{
+  "name": "Mohamed Aziz Ben Salem",
+  "title": "Software Engineer | Flutter & Web Enthusiast",
+  "summary": "Passionate Software Engineer specialized in cross-platform mobile development with Flutter and modern web technologies. Experienced in building high-performance applications with clean architecture and aggressive, performance-driven design.",
+  "location": "Tunis, Tunisia",
+  "languages": ["Arabic (Native)", "French (Bilingual)", "English (Professional)"],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/mohamed-aziz-ben-salem-792362202/",
+    "github": "https://github.com/azizmaybe",
+    "whatsapp": "+21624740213",
+    "email": "medazizbensalem1998@gmail.com"
+  },
+  "avatarPath": "/assets/profile/avatar.png"
+}
