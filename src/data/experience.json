@@ -1,0 +1,55 @@
+{
+  "experiences": [
+    {
+      "company": "DALINOVATE",
+      "role": "Flutter Engineer",
+      "location": "Tunis, Tunisia",
+      "period": "Jan 2025 – Present",
+      "logoPath": "/assets/companies/dalinovate.svg",
+      "highlights": [
+        "Reduced app crash rate by 60% across 2 cross-platform Flutter apps through rigorous testing and debugging protocols",
+        "Doubled release frequency (monthly → bi-weekly) by building automated CI/CD pipelines using Fastlane and Codemagic",
+        "Improved perceived app responsiveness by 20% via local data persistence with Sqflite and Hive, enabling full offline functionality",
+        "Cut new feature development time by 15% by architecting a Provider-based state management system",
+        "Drove a 25% increase in website traffic across 5 WordPress properties by integrating technical SEO best practices including keyword optimization and internal linking",
+        "Decreased bounce rate by 40% by improving page load speed through content and structure optimization"
+      ]
+    },
+    {
+      "company": "BLAZE",
+      "role": "Flutter Developer (Freelance)",
+      "location": "Remote",
+      "period": "Dec 2024 – Present",
+      "logoPath": "/assets/companies/blaze.svg",
+      "highlights": [
+        "Delivered a fully responsive, cross-platform Flutter application with high-fidelity adherence to Figma design mockups",
+        "Built complex custom widgets and animations that significantly improved user engagement and visual polish",
+        "Decoupled business logic from UI using BLoC/Provider state management, improving maintainability and enabling easier unit testing"
+      ]
+    },
+    {
+      "company": "GoMyCode",
+      "role": "Software Instructor",
+      "location": "Remote",
+      "period": "Jun 2024 – Jan 2025",
+      "logoPath": "/assets/companies/gomycode.svg",
+      "highlights": [
+        "Taught web development and software testing to 20+ students, achieving a 4.7/5 average satisfaction rating",
+        "Redesigned the Software Testing curriculum to cover 100% of ISTQB modules with real-world simulations",
+        "Led students to successfully complete and present a collaborative project at a local tech fair"
+      ]
+    },
+    {
+      "company": "SWEAKA",
+      "role": "Flutter Developer",
+      "location": "Remote",
+      "period": "Dec 2022 – Jul 2024",
+      "logoPath": "/assets/companies/sweaka.svg",
+      "highlights": [
+        "Served 10,000+ active users by architecting RESTful API endpoints for authentication, data retrieval, and transaction processing",
+        "Reduced crash reports by 20% while delivering the most visually praised UI update according to user surveys",
+        "Reduced code review cycle time by 30% by championing Git best practices through team training and internal documentation"
+      ]
+    }
+  ]
+}

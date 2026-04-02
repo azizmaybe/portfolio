@@ -1,0 +1,25 @@
+{
+  "projects": [
+    {
+      "title": "Werkglück",
+      "description": "Professional pipe cleaning and plumbing service operating in Essen. Features transparent pricing, rapid deployment, and modern techniques.",
+      "imagePath": "/assets/apps/app-dalinovate-1.png",
+      "techTags": ["Flutter", "Web", "SEO", "Google Maps"],
+      "liveUrl": "https://werkglueck-rohrreinigung.de/"
+    },
+    {
+      "title": "Blaze Fitness",
+      "description": "Fitness tracking and coaching app to help users train with expert coaches and reach real fitness goals.",
+      "imagePath": "/assets/apps/app-blaze.png",
+      "techTags": ["Flutter", "Dart", "Firebase", "SQFlite"],
+      "liveUrl": "https://play.google.com/store/apps/details?id=com.ebuild.blazefitness&hl=en"
+    },
+    {
+      "title": "Dayming",
+      "description": "To be published. Your personal goal assistant — part coach, part game. Turns your journey into a game and your dreams into reality.",
+      "imagePath": "/assets/apps/app-dayming.png",
+      "techTags": ["Flutter", "Dart", "Gamification"],
+      "liveUrl": "https://dayming.com"
+    }
+  ]
+}

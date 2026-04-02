@@ -1,0 +1,49 @@
+{
+  "education": {
+    "degree": {
+      "title": "Bachelor of Engineering in Software Engineering",
+      "issuer": "South Mediterranean University (SMU)",
+      "date": "2017 – 2022",
+      "logoPath": "/assets/companies/smu.svg",
+      "courses": [
+        "Web Development",
+        "Mobile Development",
+        "Software Engineering",
+        "Database Systems",
+        "Operating Systems",
+        "Requirements & UX",
+        "Software Architecture",
+        "Software Quality & Testing",
+        "Cloud / Distributed Systems",
+        "AI / Data Analytics"
+      ]
+    },
+    "certifications": [
+      {
+        "title": "ISTQB Foundation Level Certificate",
+        "issuer": "ISTQB",
+        "date": "March 2024"
+      },
+      {
+        "title": "Hashgraph Developer Certificate",
+        "issuer": "Dar Blockchain",
+        "date": "December 2024"
+      },
+      {
+        "title": "Flutter & Dart Mobile Development",
+        "issuer": "IT Gate",
+        "date": "September 2022"
+      },
+      {
+        "title": "Angular + Spring Boot",
+        "issuer": "IMS",
+        "date": "August 2021"
+      },
+      {
+        "title": "Python for Data Science, AI & Development",
+        "issuer": "IBM",
+        "date": "February 2021"
+      }
+    ]
+  }
+}

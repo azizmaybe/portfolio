@@ -1,0 +1,14 @@
+{
+  "name": "Mohamed Aziz Ben Salem",
+  "title": "Flutter Engineer | Mobile Developer",
+  "summary": "Passionate Flutter Engineer with 3+ years of production experience building high-performance cross-platform applications for 10,000+ users. Proven track record of reducing crash rates by up to 60%, implementing CI/CD pipelines that doubled release frequency, and delivering pixel-perfect UIs from Figma mockups. Fluent in English and French. Available for relocation and open to visa sponsorship.",
+  "location": "Tunis, Tunisia",
+  "languages": ["Arabic (Native)", "English (Bilingual)", "French (Full Professional)", "German (Basic)"],
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/mohamed-aziz-ben-salem-792362202/",
+    "github": "https://github.com/azizmaybe",
+    "whatsapp": "+21624740213",
+    "email": "medazizbensalem1998@gmail.com"
+  },
+  "avatarPath": "/assets/profile/avatar.png"
+}
