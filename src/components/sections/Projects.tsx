@@ -7,7 +7,7 @@ import { Project } from "@/types";
 
 const ProjectsSection = () => {
   return (
-    <section id="projects" className="py-20 md:py-24 lg:py-32 relative">
+    <section id="projects" aria-label="Projects" className="py-20 md:py-24 lg:py-32 relative">
       <div className="container">
         <SectionHeader title="FEATURED PROJECTS" label="04 : Portfolio" />
 

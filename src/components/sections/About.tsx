@@ -6,7 +6,7 @@ import profileData from "@/data/profile.json";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 md:py-24 lg:py-32 relative">
+    <section id="about" aria-label="About" className="py-20 md:py-24 lg:py-32 relative">
       <div className="container">
         <SectionHeader title="THE ENGINEER" label="01 : Profile Overview" />
 
@@ -15,6 +15,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <h3 className="text-[2rem] mb-6">Engineering The Future</h3>
@@ -32,6 +33,7 @@ const About = () => {
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8 }}
             className="p-10 bg-white/10 border border-white/10 shadow-[0_4px_20px_rgba(0,0,0,0.5)] rounded-2xl"
           >
@@ -41,13 +43,13 @@ const About = () => {
 
             <div className="grid grid-cols-2 gap-10">
               <div>
-                <span className="text-xs uppercase opacity-50 tracking-wider">
+                <span className="text-xs uppercase text-[#888] tracking-wider">
                   Nationality
                 </span>
                 <p className="text-[1.2rem] font-bold mt-1">TUNISIAN 🇹🇳</p>
               </div>
               <div>
-                <span className="text-xs uppercase opacity-50 tracking-wider">
+                <span className="text-xs uppercase text-[#888] tracking-wider">
                   Base Location
                 </span>
                 <p className="text-[1.2rem] font-bold mt-1">
@@ -55,7 +57,7 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <span className="text-xs uppercase opacity-50 tracking-wider">
+                <span className="text-xs uppercase text-[#888] tracking-wider">
                   Communication
                 </span>
                 <p className="text-[1rem] font-semibold mt-1 leading-relaxed">
@@ -63,7 +65,7 @@ const About = () => {
                 </p>
               </div>
               <div>
-                <span className="text-xs uppercase opacity-50 tracking-wider">
+                <span className="text-xs uppercase text-[#888] tracking-wider">
                   Professional Level
                 </span>
                 <p className="text-[1.2rem] font-bold mt-1">MID-SENIOR</p>
@@ -71,7 +73,7 @@ const About = () => {
             </div>
 
             <div className="mt-12">
-              <span className="text-xs uppercase opacity-50 tracking-wider block mb-4">
+              <span className="text-xs uppercase text-[#888] tracking-wider block mb-4">
                 Social Radio
               </span>
               <div className="flex gap-8">

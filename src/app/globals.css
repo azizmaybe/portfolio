@@ -9,6 +9,10 @@
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   html,
   body {
     @apply max-w-[100vw] overflow-x-hidden relative bg-[#0A0A0A] text-white;

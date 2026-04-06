@@ -10,7 +10,7 @@ const Contact = () => {
     useContactForm();
 
   return (
-    <section id="contact" className="py-20 md:py-24 lg:py-32 relative overflow-hidden">
+    <section id="contact" aria-label="Contact" className="py-20 md:py-24 lg:py-32 relative overflow-hidden">
       <div className="container">
         <SectionHeader title="LET'S CONNECT" label="05 : Contact" />
 
@@ -19,6 +19,7 @@ const Contact = () => {
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <h3 className="text-[2rem] mb-6">Ready to Start?</h3>
@@ -40,6 +41,8 @@ const Contact = () => {
               </a>
               <a
                 href={`https://wa.me/${profileData.socials.whatsapp.replace("+", "")}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-[1.2rem] font-bold text-[#E8002D] block mt-2"
               >
                 WHATSAPP: {profileData.socials.whatsapp}
@@ -83,6 +86,7 @@ const Contact = () => {
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8 }}
             className="p-12 bg-white/5 border border-white/5 shadow-[0_4px_20px_rgba(0,0,0,0.5)] rounded-2xl"
           >

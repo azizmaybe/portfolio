@@ -19,7 +19,7 @@ const SkillsSection = () => {
   );
 
   return (
-    <section id="skills" className="py-20 md:py-24 lg:py-32 relative bg-white/[0.02] border-y border-white/5">
+    <section id="skills" aria-label="Skills" className="py-20 md:py-24 lg:py-32 relative bg-white/[0.02] border-y border-white/5">
       <div className="container">
         <SectionHeader title="TECHNICAL EXPERTISE" label="03 : Tech Stack" />
 

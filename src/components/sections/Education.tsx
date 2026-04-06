@@ -8,7 +8,7 @@ const EducationSection = () => {
   const { degree, certifications } = educationData.education;
 
   return (
-    <section id="education" className="py-20 md:py-24 lg:py-32 relative">
+    <section id="education" aria-label="Education" className="py-20 md:py-24 lg:py-32 relative">
       <div className="container">
         <SectionHeader title="QUALIFICATIONS" label="04 : Education" />
 
@@ -17,6 +17,7 @@ const EducationSection = () => {
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <h3 className="font-['JetBrains_Mono',_monospace] text-xs text-[#E8002D] uppercase tracking-widest block mb-6">
@@ -53,6 +54,7 @@ const EducationSection = () => {
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
             <h3 className="font-['JetBrains_Mono',_monospace] text-xs text-[#E8002D] uppercase tracking-widest block mb-6">
@@ -68,7 +70,7 @@ const EducationSection = () => {
                     <h5 className="text-[1rem] leading-snug">{cert.title}</h5>
                     <p className="text-[#C8C8C8] text-[0.85rem] mt-1">{cert.issuer}</p>
                   </div>
-                  <span className="font-mono text-xs opacity-50 shrink-0">{cert.date}</span>
+                  <span className="font-mono text-xs text-[#888] shrink-0">{cert.date}</span>
                 </div>
               ))}
             </div>

@@ -7,7 +7,7 @@ import profileData from "@/data/profile.json";
 
 const Hero = () => {
   return (
-    <section className="py-20 md:py-24 lg:py-32 relative overflow-hidden">
+    <section id="hero" aria-label="Hero" className="py-20 md:py-24 lg:py-32 relative overflow-hidden">
       {/* Background Animation */}
       <div className="absolute top-0 left-0 w-full h-full -z-10 overflow-hidden pointer-events-none">
         <motion.div
@@ -35,6 +35,7 @@ const Hero = () => {
             initial={{ scale: 0, opacity: 0 }}
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            viewport={{ once: true }}
             className="w-24 h-24 rounded-full border-[3px] border-[#E8002D] overflow-hidden mb-12 relative shadow-[0_0_30px_rgba(232,0,45,0.3)]"
           >
             <Image
@@ -62,6 +63,7 @@ const Hero = () => {
           <motion.div
             initial={{ width: 0 }}
             whileInView={{ width: "150px" }}
+            viewport={{ once: true }}
             transition={{ duration: 1, delay: 0.5 }}
             className="h-1.5 bg-[#E8002D] mb-10 -skew-x-[15deg]"
           />
@@ -69,6 +71,7 @@ const Hero = () => {
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.8 }}
             className="text-[clamp(1rem,1.5vw,1.4rem)] text-[#C8C8C8] max-w-[600px] font-mono mb-16 leading-relaxed"
           >
@@ -78,6 +81,7 @@ const Hero = () => {
           <motion.div
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 1.2 }}
             className="flex flex-wrap gap-6 md:gap-10"
           >

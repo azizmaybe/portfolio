@@ -32,6 +32,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
     <motion.div
       initial={{ opacity: 0, y: 30 }}
       whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
       className="bg-[#1A1A1A] overflow-hidden border-b-4 border-[#E8002D] shadow-[0_4px_20px_rgba(0,0,0,0.5)] flex flex-col h-full rounded-2xl group"
     >
@@ -110,7 +111,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             </a>
           )}
           {!project.liveUrl && !project.repoUrl && (
-            <span className="text-[0.75rem] font-mono text-[#555] uppercase tracking-widest">
+            <span className="text-[0.75rem] font-mono text-[#888] uppercase tracking-widest">
               Private Repository
             </span>
           )}

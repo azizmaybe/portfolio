@@ -38,6 +38,7 @@ const SkillBadge = ({ skill, index }: SkillBadgeProps) => {
     <motion.div
       initial={{ opacity: 0, scale: 0.8 }}
       whileInView={{ opacity: 1, scale: 1 }}
+      viewport={{ once: true }}
       whileHover={{ scale: 1.08, translateY: -4 }}
       transition={{
         type: "spring",

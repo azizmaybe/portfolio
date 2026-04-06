@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
+import emailjs from "@emailjs/browser";
 
 interface ContactFormData {
   name: string;
@@ -33,17 +34,27 @@ export const useContactForm = () => {
     setIsSubmitting(true);
     setError(null);
 
-    try {
-      // Replace with your EmailJS credentials when deploying:
-      // await emailjs.send(
-      //   "YOUR_SERVICE_ID",
-      //   "YOUR_TEMPLATE_ID",
-      //   formData,
-      //   "YOUR_PUBLIC_KEY"
-      // );
+    const serviceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+    const templateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
-      // Simulated API call
-      await new Promise((resolve) => setTimeout(resolve, 1500));
+    try {
+      if (serviceId && templateId && publicKey) {
+        await emailjs.send(
+          serviceId,
+          templateId,
+          {
+            from_name: formData.name,
+            from_email: formData.email,
+            subject: formData.subject,
+            message: formData.message,
+          },
+          publicKey
+        );
+      } else {
+        // Fallback: simulate for local dev without credentials
+        await new Promise((resolve) => setTimeout(resolve, 1500));
+      }
 
       setSuccess(true);
       setFormData({ name: "", email: "", subject: "", message: "" });

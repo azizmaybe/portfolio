@@ -7,7 +7,7 @@ import { Experience } from "@/types";
 
 const ExperienceSection = () => {
   return (
-    <section id="experience" className="py-20 md:py-24 lg:py-32 relative">
+    <section id="experience" aria-label="Experience" className="py-20 md:py-24 lg:py-32 relative">
       <div className="container">
         <SectionHeader title="WORK EXPERIENCE" label="02 : Career Path" />
 
