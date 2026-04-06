@@ -20,6 +20,13 @@
       "imagePath": "/assets/apps/app-dayming.png",
       "techTags": ["Flutter", "Dart", "Gamification"],
       "liveUrl": "https://dayming.com"
+    },
+    {
+      "title": "SMU Journey",
+      "description": "Student contributor during university. iOS campus app for South Mediterranean University — features career center, study box bookings, polls, alumni network, peer tutoring sessions, campus map, and discount vouchers.",
+      "imagePath": "/assets/apps/app-smu.png",
+      "techTags": ["Flutter", "iOS", "Dart", "REST API"],
+      "liveUrl": "https://apps.apple.com/vn/app/smu-journey/id1645510162"
     }
   ]
 }
