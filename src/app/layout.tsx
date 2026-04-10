@@ -19,6 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://aziz-bs.dev"),
   title: "Mohamed Aziz Ben Salem | Flutter Engineer",
   description: "Portfolio of Mohamed Aziz Ben Salem — Flutter Engineer specializing in high-performance cross-platform mobile apps. Open to relocation and visa sponsorship.",
   keywords: [
