@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aziz-bs.dev"),
+  metadataBase: new URL("https://azizbensalem.vercel.app"),
   title: "Mohamed Aziz Ben Salem | Flutter Engineer",
   description: "Portfolio of Mohamed Aziz Ben Salem — Flutter Engineer specializing in high-performance cross-platform mobile apps. Open to relocation and visa sponsorship.",
   keywords: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mohamed Aziz Ben Salem | Flutter Engineer",
     description: "Flutter Engineer with 3+ years building cross-platform apps for 10,000+ users. Open to relocation.",
-    url: "https://aziz-bs.dev",
+    url: "https://azizbensalem.vercel.app",
     siteName: "Mohamed Aziz Ben Salem Portfolio",
     images: [
       {
